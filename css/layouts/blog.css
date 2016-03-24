@@ -12,7 +12,12 @@ a:hover,
 a:focus {
     text-decoration: underline;
 }
-
+.full-width{
+  width: 100%;
+}
+.up-align {
+  vertical-align: top;
+}
 h3 {
     font-weight: 100;
 }
@@ -75,15 +80,28 @@ h3 {
     border: 2px solid rgb(61, 146, 201);
     text-decoration: none;
 }
-
+.pure-fixed-table {
+  table-layout:fixed !important;
+}
+.title-tr {
+  width: 100px !important;
+}
+.brief {
+  color: #333;
+  font-size: 90%;
+  margin: 0em !important;
+}
+.pure-table td{
+  padding-right: 0em !important;
+}
 .content-subhead {
     text-transform: uppercase;
     color: #aaa;
     border-bottom: 1px solid #eee;
-    padding: 0.4em 0;
     font-size: 80%;
     font-weight: 500;
     letter-spacing: 0.1em;
+    margin-top: 2em;
 }
 
 .content {
@@ -91,7 +109,7 @@ h3 {
 }
 
 .post {
-    padding-bottom: 2em;
+    padding-bottom: .1em;
 }
 .post-title {
     font-size: 2em;
@@ -101,6 +119,9 @@ h3 {
 .post-avatar {
     border-radius: 20px;
     margin-left: 1em;
+}
+.desc {
+  margin: 0em !important;
 }
 .post-description {
     font-family: Georgia, "Cambria", serif;
