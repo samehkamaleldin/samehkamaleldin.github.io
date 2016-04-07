@@ -145,7 +145,9 @@ h3 {
         background: #5aba59;
     }
     .post-category-pure {
-        background: #4d85d1;
+        font-family:monospace !important;
+        font-size: 1.2em;
+        background: #888;
     }
     .post-category-yui {
         background: #8156a7;
