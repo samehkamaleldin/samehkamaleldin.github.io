@@ -13,3 +13,8 @@ body {
         padding-top: 56px;
     }
 }
+
+.nav-link-small{
+    padding-bottom: 0.2em!important;
+    padding-top: 0.2em!important;
+}
