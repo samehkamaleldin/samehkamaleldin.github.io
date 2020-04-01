@@ -1,0 +1,36 @@
+
+postdoc:
+    display_name: "Post Doctorate Researcher"
+    bio:  Insight Centre for Data Analytics <br> Mar. 2020 - Ongoing <br> Galway, Ireland
+    role: faculty
+    image: /img/insight_logo.jpg
+
+ra_insight:
+    display_name: "Research Assistant"
+    role: faculty
+    bio: Insight Centre for Data Analytics <br> Dec. 2018 - Feb. 2020 (1 year and 3 months) <br> Galway, Ireland
+    image: /img/insight_logo.jpg
+
+ra_ist:
+    display_name: "IST Networks"
+    role: faculty
+    bio: Research Engineer <br> Oct. 2015 - Feb. 2016 (5 months) <br> Cairo, Egypt
+    image: /img/ist_logo.png
+
+ra_mesc:
+    display_name: "MESC Labs"
+    role: faculty
+    bio: Research Engineer <br> August. 2012 - Sep. 2015 (3 years and 1 month) <br> Cairo, Egypt
+    image: /img/mesc.png
+
+a1:
+    display_name: "Doctor of Philosophy (PhD) in Computer Science"
+    bio: National University of Ireland Galway <br> Mar. 2016 - Feb. 2020 <br> Galway, Ireland
+    role: staff
+    image: /img/nuig_logo.jpg
+
+a2:
+    display_name: "Bachelor of Science (B.Sc.) in Computer Science"
+    role: staff
+    bio: Helwan University <br> Sep. 2008 ~ July. 2012 <br> Cairo, Egypt
+    image: /img/helwan_univ.png

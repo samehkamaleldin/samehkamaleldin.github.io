@@ -1,399 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: Home
+notitle: true
 
-<head>
+# groups of columns of {roles: list, width: num, image: bool}
+role-tables:
+- - roles: [staff]
+    width: 6
+    image: true
+  - roles: [faculty]
+    width: 6
+    image: true
+---
+<div class="row justify-content-between">
+    <div class="col-md-3">
+        <img class="img-thumbnail main-img" src="/img/sameh-img.jpg"> <br><br>
 
-    <meta charset="utf-8">
-    <meta name="google-site-verification" content="_FMhRWfNoWUkYWWLjM_r5g_j6E6umD-VA3r1p11AoqE" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Sameh K. Mohamed</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/custom-styles.css" rel="stylesheet">
-
-</head>
-
-<body style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
-
-<!-- Navigation Main Menu -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <div class="container">
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav mr-sm-auto sm">
-                <li class="nav-item active">
-                    <a class="nav-link nav-link-small" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-small" href="./blog">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-small" href="#">News</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-small" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
     </div>
-</nav>
+    <div class="col-md-9">
 
-<!-- Page Content -->
-<div class=" container-fluid" style="margin-top: 20px">
-    <div class="row">
-        <div class="col-xl-2 col-lg-2 col-sm-3">
-            <div class="">
-                <div class="card-body">
-                    <p class="text-center">
-                        <a>
-                            <img src="./images/sameh-img.jpg" width="100%" alt="..." class="img-thumbnail">
-                        </a>
-                    <h5 class="" style="margin: 0">Sameh K. Mohamed</h5>
-                    <small class="text-muted">PhD Student in NUI Galway</small>
-                    <hr>
-                    <div style=" font-size: small">
-                        <address>
-                            <strong>Insight Centre for Data Analytics</strong><br>
-                            IDA Business Park<br>
-                            Upper Newcastle<br>
-                            Galway, Ireland. H91 AEX4<br>
-                            <p></p>
-                            <img src="images/phone.png" width="15x">&nbsp; +(353) 83 817 2822<br>
-                            <img src="images/envelope.png"> &nbsp;<a href="mailto:s.kamal1@nuigalway.ie">s.kamal1@nuigalway.ie</a>
-                        </address>
-                    </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Introduction</h5>
+                <p class="card-text">I a post doctorate researcher at National University of Ireland Galway. My current research interests are knowledge graph embeddings, representation learning and bioinformatics.
+                    My current work is focused on developing new representation learning models for modelling complex biological systems. I am also generally interested in problems such as predicting protein drug targets and predicting the adverse effects of polypharmacy.
+                </p>
 
-                    </address>
-                    <hr>
-                    <div hidden>
-                        <a class="twitter-timeline" data-width="100%" data-height="1000pt" data-dnt="true"
-                           data-theme="light" href="https://twitter.com/SamehKamalEldin?ref_src=twsrc%5Etfw">Tweets by
-                            SamehKamalEldin</a>
-                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <br>
+                <a href="mailto:sameh.kamaleldin@gmail.com" class="btn btn-sm btn-info"><i class="fas fa-at"></i> sameh.kamaleldin@gmail.com</a> &nbsp;&nbsp;
+                <a href="mailto:s.kamal1@nuigalway.ie" class="btn btn-sm btn-info" style="margin-right: 55px;"><i class="fas fa-at" ></i> s.kamal1@nuigalway.ie</a>
 
-                        </p>
-                    </div>
+                <a href="https://github.com/samehkamaleldin" class="btn btn-sm btn-primary"><i class="fab fa-lg fa-github"></i></a>&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/samehkamaleldin/" class="btn btn-sm btn-primary"><i class="fab fa-lg fa-linkedin"></i></a>&nbsp;&nbsp;
+                <a href="https://www.twitter.com/samehkamaleldin" class="btn btn-sm btn-primary"><i class="fab fa-lg fa-twitter"></i></a>
 
-                </div>
             </div>
-
-
-        </div>
-        <!-- /.col-lg-3 -->
-
-        <div class="col-xl-7 col-lg-8 col-sm-8">
-            <div class="card mt-4">
-                <div class="card-header">
-                    About
-                </div>
-                <div class="card-body">
-                    <text class="text-sm-left">
-                        Ph.D. student in Computer Science at National University of Ireland Galway,
-                        working on relational machine learning algorithms for knowledge base completion
-                        and association rule mining in knowledge graphs
-                    </text>
-                </div>
-                <!-- /.card Education-->
-                <div class="card card-outline-secondary my-4">
-                    <div class="card-header">
-                        Education
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-
-                            <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
-                                <p class="text-center">
-                                    <strong>PhD (CS)</strong>
-                                    <br>
-                                    <small class="text-muted">Galway, Ireland</small>
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/nuig-logo.jpg" width="50%" alt="..." class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>NUI Galway</text>
-                                    <br>
-                                    <em>2016 - Ongoing</em>
-                                </p>
-
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
-                                <p class="text-center">
-                                    <strong>BSc. (CS)</strong>
-                                    <br>
-                                    <small class="text-muted">Cairo, Egypt</small>
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/helwan-logo.jpg" width="50%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Helwan University</text>
-                                    <br>
-                                    <em>2008 - 2012</em>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.card Career-->
-                    <div class="card-header">
-                        Academic Positions
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-
-                            <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
-                                <p class="text-center">
-                                    <strong>Researcher</strong>
-                                    <br>
-                                    <small class="text-muted">Galway, Ireland</small>
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/insight-logo.png" width="75%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>INSIGHT</text>
-                                    <br>
-                                    <em>2016 - Ongoing</em>
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.card Career-->
-                    <div class="card-header">
-                        Industry Positions
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
-                                <p class="text-center">
-                                    <strong>Research Assistant</strong>
-                                    <br>
-                                    <small class="text-muted">Cairo, Egypt</small>
-                                    <br>
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/ist-logo.png" width="50%" alt="..." class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>IST Networks</text>
-                                    <br>
-                                    <em>2015 - 2016</em>
-                                </p>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
-                                <p class="text-center">
-                                    <strong>Research Assistant</strong>
-                                    <br>
-                                    <small class="text-muted">Cairo, Egypt</small>
-                                    <br>
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/mesc-logo.png" width="50%" alt="..." class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>MESC Labs</text>
-                                    <br>
-                                    <em>2012 - 2015</em>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.card Technologies-->
-                    <div class="card-header">
-                        Programming Languages
-                    </div>
-
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/dev/python.png" width="70%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Python</text>
-                                    <br>
-                                </p>
-                            </div>
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/dev/bash.png" width="70%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Bash</text>
-                                    <br>
-                                </p>
-                            </div>
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/dev/cpp_logo.png" width="62%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>C++</text>
-                                    <br>
-                                </p>
-                            </div>
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/dev/matlab" width="70%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Matlab</text>
-                                    <br>
-                                </p>
-                            </div>
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/dev/java_logo.png" width="70%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Java</text>
-                                    <br>
-                                </p>
-                            </div>
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/dev/javascript.png" width="70%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Javascript</text>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.card Technologies-->
-                    <div class="card-header">
-                        Libraries & Technologies
-                    </div>
-
-                    <div class="card-body">
-                        <div class="row">
-
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/tf-logo.jpeg" width="70%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Tensorflow</text>
-                                    <br>
-                                </p>
-                            </div>
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/numpy-logo.png" width="75%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Numpy</text>
-                                    <br>
-                                </p>
-                            </div>
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/dev/keras-logo.jpg" width="75%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Keras</text>
-                                    <br>
-                                </p>
-                            </div>
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/dev/docker.png" width="75%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Docker</text>
-                                    <br>
-                                </p>
-                            </div>
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/dev/vagrant.png" width="75%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>Vagrant</text>
-                                    <br>
-                                </p>
-                            </div>
-                            <div class="col-sm-2 col-xs-4">
-                                <p class="text-center">
-                                    <br>
-                                    <a>
-                                        <img src="./images/logos/dev/aws.png" width="75%" alt="..."
-                                             class="img-fluid">
-                                    </a>
-                                    <br>
-                                    <text>AWS</text>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /.col-lg-9 -->
-
         </div>
 
     </div>
-    </div>
-    <!-- /.container -->
+</div>
 
-    <!-- Footer -->
-    <footer class="py-3 bg-dark">
-        <div class="container">
-            <p class="m-0 text-lg-center text-white">
-                <small>Sameh K. Mohamed - Last updated: Oct. 2017</small>
-            </p>
+<br>
+
+<section>
+    <h2>News</h2>
+    <ul class="news list-unstyled">
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
+    {% assign numposts = site.posts | size %}
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+        </p>
+    {% endif %}
+</section>
+
+<div id="people">
+    {% for role-table in page.role-tables %}
+    <section class="people row justify-content-between">
+        {% for role-column in role-table %}
+        <div class="col-md-{{ role-column.width }}">
+            {% for role in role-column.roles %}
+            {% include role-people.html role=role image=role-column.image %}
+            {% endfor %}
+
         </div>
-        <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+        {% endfor %}
+    </section>
+    {% endfor %}
+</div>
