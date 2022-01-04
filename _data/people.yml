@@ -3,13 +3,13 @@ sr_ds:
     display_name: "Sr. Data Scientist"
     bio:  Mastercard Labs <br> Aug. 2021 - Ongoing <br> Galway, Ireland
     role: faculty
-    image: /img/mastercard_logo.jpg
+    image: /img/mastercard_logo.png
 
 postdoc:
     display_name: "Post Doctorate Researcher"
     bio:  Insight Centre for Data Analytics <br> Mar. 2020 - July. 2021 <br> Galway, Ireland
     role: faculty
-    image: /img/insight_logo.png
+    image: /img/insight_logo.jpg
 
 ra_insight:
     display_name: "Research Assistant"
