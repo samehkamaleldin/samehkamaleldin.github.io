@@ -9,7 +9,7 @@ postdoc:
     display_name: "Post Doctorate Researcher"
     bio:  Insight Centre for Data Analytics <br> Mar. 2020 - July. 2021 <br> Galway, Ireland
     role: faculty
-    image: /img/insight_logo.jpg
+    image: /img/insight_logo.png
 
 ra_insight:
     display_name: "Research Assistant"
