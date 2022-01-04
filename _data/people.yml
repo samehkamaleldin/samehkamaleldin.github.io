@@ -7,14 +7,14 @@ sr_ds:
 
 postdoc:
     display_name: "Post Doctorate Researcher"
-    bio:  Insight Centre for Data Analytics <br> Mar. 2020 - July. 2021 <br> Galway, Ireland
+    bio:  Insight Centre for Data Analytics <br> Mar. 2020 - July. 2021 (1 year and 4 months) <br> Galway, Ireland
     role: faculty
     image: /img/insight_logo.jpg
 
 ra_insight:
-    display_name: "Research Assistant"
+    display_name: "Researcher"
     role: faculty
-    bio: Insight Centre for Data Analytics <br> Dec. 2018 - Feb. 2020 (1 year and 3 months) <br> Galway, Ireland
+    bio: Insight Centre for Data Analytics <br> Mar. 2016 - Feb. 2020 (4 years) <br> Galway, Ireland
     image: /img/insight_logo.jpg
 
 ra_ist:
