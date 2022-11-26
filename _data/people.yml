@@ -1,7 +1,13 @@
 
+lead_ds:
+    display_name: "Lead Data Scientist"
+    bio:  Legato Health Technologies, Ireland <br> Feb. 2022 - Ongoing <br> Limerick, Ireland
+    role: faculty
+    image: /img/legato_logo.jpeg
+    
 sr_ds:
     display_name: "Sr. Data Scientist"
-    bio:  Mastercard Labs <br> Aug. 2021 - Ongoing <br> Galway, Ireland
+    bio:  Mastercard Labs <br> Aug. 2021 - Feb. 2022 (7 Months) <br> Galway, Ireland
     role: faculty
     image: /img/mastercard_logo.png
 
