@@ -1,9 +1,15 @@
 
 lead_ds:
-    display_name: "Lead Data Scientist"
-    bio:  Legato Health Technologies, Ireland <br> Feb. 2022 - Ongoing <br> Limerick, Ireland
+    display_name: "Principal Data Scientist"
+    bio:  Carelon Global Solutions Ireland <br> May. 2023 - Ongoing <br> Limerick, Ireland
     role: faculty
-    image: /img/legato_logo.jpeg
+    image: /img/carelon_logo.jpg
+
+lead_ds:
+    display_name: "Lead Data Scientist"
+    bio:  Carelon Global Solutions Ireland <br> Feb. 2022 - May. 2023 <br> Limerick, Ireland
+    role: faculty
+    image: /img/carelon_logo.jpg
     
 sr_ds:
     display_name: "Sr. Data Scientist"
